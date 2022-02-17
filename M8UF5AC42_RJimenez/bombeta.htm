@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bombeta</title>
+        <script type="text/javascript" src="js/bombeta.js"></script>
+    </head>
+    <body>
+        <h1>Passa per sobre de cada bombeta per encerdre-la!</h1>
+            <img src="img/llumoff.gif" id="a1" onmouseover ="luz(this);" onmouseout="noluz(this);" onclick="roto(this);">
+            <img src="img/llumoff.gif" id="a2" onmouseover ="luz(this);" onmouseout="noluz(this);" onclick="roto(this);">
+            <img src="img/llumoff.gif" id="a3" onmouseover ="luz(this);" onmouseout="noluz(this);" onclick="roto(this);">
+            <div style="display: flex;flex-direction: row;">
+                <button id="boton1" onkeydown="luz2(event);" style="border: black 2px solid; height: 60px; width: 90px;"></button>
+                <button id="boton2"onkeydown="luz2(event);" style="border: black 2px solid; height: 60px; width: 90px;"></button>
+                <button id="boton3"onkeydown="luz2(event);" style="border: black 2px solid; height: 60px; width: 90px;"></button>
+            <div>
+    </body>
+</html>

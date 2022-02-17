@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ca">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calculadora</title>
+        <script type="text/javascript" src="js/calculadora.js"></script>
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form name="calc">
+            <div class="grid">
+                <div id="a0"><input id="pantalla" type="text" name="pantalla" value=""></div>
+                <div id="img1"><img src="img/5847eab1cef1014c0b5e4840.png" width="100px" height="30px"></div>
+                <div id="img"><img id="img2" src="img/Captura.PNG" width="70%" height="20px"></div>
+                <div id="a1"><button type="button" id="color1" value="C" onclick="operacion(this)">C</button></div>
+                <div id="a2"><button type="button" value="7" onclick="operacion(this)">7</button></div>
+                <div id="a3"><button type="button" value="8" onclick="operacion(this)">8</button></div>
+                <div id="a4"><button type="button" value="9" onclick="operacion(this)">9</button></div>
+                <div id="a5"><button type="button" class="color" value="/" onclick="operacion(this)">/</button></div>
+                <div id="a6"><button type="button" value="4" onclick="operacion(this)">4</button></div>
+                <div id="a7"><button type="button" value="5" onclick="operacion(this)">5</button></div>
+                <div id="a8"><button type="button" value="6" onclick="operacion(this)">6</button></div>
+                <div id="a9"><button type="button" class="color" value="*" onclick="operacion(this)">*</button></div>
+                <div id="a10"><button type="button" value="1" onclick="operacion(this)">1</button></div>
+                <div id="a11"><button type="button" value="2" onclick="operacion(this)">2</button></div>
+                <div id="a12"><button type="button" value="3" onclick="operacion(this)">3</button></div>
+                <div id="a13"><button type="button" class="color" value="-" onclick="operacion(this)">-</button></div>
+                <div id="a14"><button type="button" value="0" onclick="operacion(this)">0</button></div>
+                <div id="a15"><button type="button" value="," onclick="operacion(this)">,</button></div>
+                <div id="a16"><button type="button" class="color" value="=" onclick="operacion(this)">=</button></div>
+                <div id="a17"><button type="button" class="color" value="+" onclick="operacion(this)">+</button></div>
+            </div>
+        </form>
+    </body>
+</html>
